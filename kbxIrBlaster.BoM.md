@@ -1,0 +1,22 @@
+# kbx IR Blaster BoM
+
+Also available on [Octopart](https://octopart.com/bom-tool/E3UbearV)!
+
+|Reference               |Quantity|Value              |Footprint                                                |Manufacturer       |MPN                  |Octopart URL                                                              |
+|------------------------|--------|-------------------|---------------------------------------------------------|-------------------|---------------------|--------------------------------------------------------------------------|
+|C1                      |1       |1 uF               |Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder|TDK                |CGA4J2X7R1C105K125AA |https://octopart.com/cga4j2x7r1c105k125aa-tdk-26014660                    |
+|C2 C3 C4 C5             |4       |10 uF              |Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder|TDK                |C2012X7S1C106K125AC  |https://octopart.com/c2012x7s1c106k125ac-tdk-76687597                     |
+|D1 D5 D6 D2 D7 D3 D8 D4 |8       |LED                |LED_THT:LED_D5.0mm                                       |Adafruit Industries|388                  |https://octopart.com/388-adafruit+industries-32978577                     |
+|D11                     |1       |LED_Dual_AACC      |LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW                     |VCC                |CMD1522SRUGCTR8      |https://octopart.com/cmd1522srugctr8-vcc-26670125                         |
+|D9 D10 D12              |3       |MBR120             |Diode_SMD:D_SOD-123F                                     |ON Semiconductor   |MBR120VLSFT1G        |https://octopart.com/mbr120vlsft1g-on+semiconductor-330791                |
+|J5                      |1       |Barrel_Jack_Switch |Connector_BarrelJack:BarrelJack_Horizontal               |Gravitech          |CON-SOCJ-2155        |https://octopart.com/con-socj-2155-gravitech-52307550                     |
+|J6                      |1       |USB_B_Micro        |Connector_USB:USB_Micro-B_Molex-105017-0001              |Molex              |105017-0001          |https://octopart.com/105017-0001-molex-18688631                           |
+|Q1 Q2 Q3 Q4             |4       |2N7002             |Package_TO_SOT_SMD:SOT-23                                |Diodes Inc.        |2N7002-7-F           |https://octopart.com/2n7002-7-f-diodes+inc.-335069                        |
+|R1 R2 R3 R4             |4       |100                |Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder |Yageo              |RC0805FR-07100RL     |https://octopart.com/rc0805fr-07100rl-yageo-41204584                      |
+|R5 R6                   |2       |1K                 |Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder |Yageo              |RC0805FR-071KL       |https://octopart.com/rc0805fr-071kl-yageo-40025555                        |
+|R7                      |1       |10K                |Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder |Yageo              |RC0805FR-0710KL      |https://octopart.com/rc0805fr-0710kl-yageo-40301103                       |
+|SW1                     |1       |SW_Reset           |Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2                |C&K Components     |KMR221GLFS           |https://octopart.com/kmr221glfs-c%26k+components-4774225                  |
+|SW2                     |1       |SW_Boot            |Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2                |Vishay             |TSOP38238            |https://octopart.com/tsop38238-vishay-5517697                             |
+|U1 U2                   |2       |TSOP382xx          |OptoDevice:Vishay_MINICAST-3Pin                          |Vishay             |TSOP38256            |https://octopart.com/tsop38256-vishay-20815069                            |
+|U3                      |1       |ESP32-WROOM-32D    |RF_Module:ESP32-WROOM-32                                 |Espressif Systems  |ESP32-WROOM-32D (4MB)|https://octopart.com/esp32-wroom-32d+%284mb%29-espressif+systems-107387864|
+|U4                      |1       |AP2112K-3.3        |Package_TO_SOT_SMD:SOT-23-5                              |Diodes Inc.        |AP2112K-3.3TRG1      |https://octopart.com/ap2112k-3.3trg1-diodes+inc.-30954557                 |
