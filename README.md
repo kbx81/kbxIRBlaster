@@ -1,5 +1,7 @@
 # kbx IR Blaster
 
+![kbxIRBlaster](images/kbxIrBlaster-top.jpg "kbxIRBlaster")
+
 ## What?
 
 Just another ESP32-based IR Blaster. It was designed with
