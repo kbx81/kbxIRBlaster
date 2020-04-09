@@ -452,9 +452,9 @@ Wire Wire Line
 Wire Wire Line
 	1750 5350 1550 5350
 Wire Wire Line
-	1550 4950 1550 5350
+	1550 4950 1550 5000
 Wire Wire Line
-	2350 4950 2350 5350
+	2350 4950 2350 5000
 Connection ~ 2350 5750
 Wire Wire Line
 	2350 6450 2350 6050
@@ -526,12 +526,12 @@ Wire Wire Line
 Wire Wire Line
 	2950 5350 3350 5350
 $Comp
-L Jumper:SolderJumper_3_Open JP7
+L Jumper:SolderJumper_3_Open JP8
 U 1 1 5E394047
 P 4600 5100
-F 0 "JP7" H 4600 5305 50  0000 C CNN
+F 0 "JP8" H 4600 5305 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 4600 5214 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 4600 5100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4600 5100 50  0001 C CNN
 F 3 "~" H 4600 5100 50  0001 C CNN
 	1    4600 5100
 	0    -1   -1   0   
@@ -613,7 +613,7 @@ U 1 1 5E3180F3
 P 4650 2250
 F 0 "JP1" V 4604 2318 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 4695 2318 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4650 2250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4650 2250 50  0001 C CNN
 F 3 "~" H 4650 2250 50  0001 C CNN
 	1    4650 2250
 	0    1    1    0   
@@ -624,7 +624,7 @@ U 1 1 5E319A52
 P 5650 2250
 F 0 "JP2" V 5604 2318 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 5695 2318 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5650 2250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5650 2250 50  0001 C CNN
 F 3 "~" H 5650 2250 50  0001 C CNN
 	1    5650 2250
 	0    1    1    0   
@@ -734,7 +734,7 @@ U 1 1 5E7BA33A
 P 8050 2250
 F 0 "JP3" H 8050 2455 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 8050 2364 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 8050 2250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8050 2250 50  0001 C CNN
 F 3 "~" H 8050 2250 50  0001 C CNN
 	1    8050 2250
 	0    -1   -1   0   
@@ -846,7 +846,7 @@ U 1 1 5E962DC6
 P 9000 2250
 F 0 "JP4" H 9000 2455 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 9000 2364 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 9000 2250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9000 2250 50  0001 C CNN
 F 3 "~" H 9000 2250 50  0001 C CNN
 	1    9000 2250
 	0    -1   -1   0   
@@ -956,7 +956,7 @@ U 1 1 5E978616
 P 9950 2250
 F 0 "JP5" H 9950 2455 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 9950 2364 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 9950 2250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9950 2250 50  0001 C CNN
 F 3 "~" H 9950 2250 50  0001 C CNN
 	1    9950 2250
 	0    -1   -1   0   
@@ -1089,10 +1089,8 @@ Wire Wire Line
 Wire Wire Line
 	3550 4750 3550 5700
 Connection ~ 3550 5700
-Text GLabel 9950 1850 1    50   BiDi ~ 0
+Text GLabel 9100 4300 2    50   BiDi ~ 0
 GPIO15
-Text GLabel 9000 1850 1    50   BiDi ~ 0
-GPIO2
 $Comp
 L Interface_Optical:TSOP382xx U1
 U 1 1 5E1395CE
@@ -1129,7 +1127,7 @@ U 1 1 5E87521F
 P 8900 4300
 F 0 "JP6" V 8854 4368 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 8945 4368 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8900 4300 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8900 4300 50  0001 C CNN
 F 3 "~" H 8900 4300 50  0001 C CNN
 	1    8900 4300
 	1    0    0    -1  
@@ -1395,7 +1393,7 @@ F 3 "~" H 8400 4100 50  0001 C CNN
 	1    8400 4100
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9100 4300 2    50   BiDi ~ 0
+Text GLabel 9000 1850 1    50   BiDi ~ 0
 GPIO2
 Wire Wire Line
 	9100 4300 9050 4300
@@ -1484,4 +1482,27 @@ Text GLabel 7550 5000 2    50   BiDi ~ 0
 GPIO0
 Text Notes 7200 3300 0    50   Italic 0
 Note: Calculate appropriate values for R1 through R4 based on LED forward current!\n LEDs are in series, so use (Vf * 2) — e.g.: R = (Vin - 0.5 - (Vf * 2)) / If\n Vin may be up to 6 volts but subtract 0.5 volts because of D9/D10/D12.\n 2N7002 FETs can handle up to 200 mA each; FETs capable of more current may be used if required.
+Text GLabel 9950 1850 1    50   BiDi ~ 0
+GPIO16
+$Comp
+L Jumper:SolderJumper_2_Open JP7
+U 1 1 5F7DE179
+P 1900 5000
+F 0 "JP7" V 1854 5068 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 1945 5068 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1900 5000 50  0001 C CNN
+F 3 "~" H 1900 5000 50  0001 C CNN
+	1    1900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5000 1550 5000
+Connection ~ 1550 5000
+Wire Wire Line
+	1550 5000 1550 5350
+Wire Wire Line
+	2050 5000 2350 5000
+Connection ~ 2350 5000
+Wire Wire Line
+	2350 5000 2350 5350
 $EndSCHEMATC
