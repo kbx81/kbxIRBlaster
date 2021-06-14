@@ -69,6 +69,11 @@ An FS1000A (such as
  6 on J2. On the [v2](v2/) PCB, simply connect the transmitter to J8. When
  doing so, be sure to orient the module correctly or tragedy may result.
 
+After building, see my
+[ESPHome-configs](https://github.com/kbx81/esphome-configs) repository for
+example [ESPHome](https://esphome.io) configuration you may use with your IR
+blaster. Enjoy!
+
  ## Legal stuff and License
 
 The circuit schematics and PCB found here are licensed under the
