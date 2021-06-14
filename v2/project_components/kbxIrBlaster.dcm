@@ -1,0 +1,50 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N6071A
+D 4A RMS, 200V Off-State Voltage, Triac, TO-225
+K Triac
+F https://m.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_2n6071_d_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 2N6071B
+D 4A RMS, 200V Off-State Voltage, Triac, TO-225
+K Triac
+F https://m.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_2n6071_d_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 2N6073A
+D 4A RMS, 400V Off-State Voltage, Triac, TO-225
+K Triac
+F https://m.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_2n6071_d_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 2N6073B
+D 4A RMS, 400V Off-State Voltage, Triac, TO-225
+K Triac
+F https://m.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_2n6071_d_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 2N6075A
+D 4A RMS, 600V Off-State Voltage, Triac, TO-225
+K Triac
+F https://m.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_2n6071_d_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 2N6075B
+D 4A RMS, 600V Off-State Voltage, Triac, TO-225
+K Triac
+F https://m.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_2n6071_d_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP MMSS8050
+D 1.5A Ic, 25V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf
+$ENDCMP
+#
+$CMP SGP40-Sensor_Air_Quality
+D Indoor Air Quality Sensor for VOC Measurements
+K Air Quality Sensor VOC
+$ENDCMP
+#
+#End Doc Library
