@@ -48,7 +48,7 @@ I had the PCBs fabricated by [Elecrow](https://www.elecrow.com) but
  nearly any PCB fabricator should be able to manufacture these without any
  issues.
 
-The schematic and PCB were drawn in [KiCAD](https://www.kicad-pcb.org).
+The schematic and PCB were drawn in [KiCAD](https://www.kicad.org).
 
 The PCBs have on the bottom side a number of solder jumpers that enable each of
  the FET drivers to be connected to one of two possible GPIO pins. This
