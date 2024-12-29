@@ -6,6 +6,8 @@ Click on an image to see the high-resolution version.
 
 [![kbxIrBlasters](images/kbxIrBlaster-top-family-thumb.jpg "kbxIrBlasters")](images/kbxIrBlaster-top-family.jpg)
 
+[![kbxIrBlasters](images/kbxIrBlaster-bottom-family-thumb.jpg "kbxIrBlasters")](images/kbxIrBlaster-bottom-family.jpg)
+
 ### v3
 
 [![kbxIrBlaster-v3](images/kbxIrBlaster-v3-thumb.jpg "kbxIrBlaster-v3")](images/kbxIrBlaster-v3.jpg)
