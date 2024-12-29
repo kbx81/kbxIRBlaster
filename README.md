@@ -30,7 +30,7 @@ I've created three versions:
   - One header for up to four external control channels
   - Pads for up to eight through-hole LEDs, front- and/or back-facing
 
-More images can be found in the [images](images/) directory of this repository.
+See the [gallery](GALLERY.md) for more images.
 
 ## Why?
 
