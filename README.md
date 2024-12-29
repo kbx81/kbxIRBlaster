@@ -1,7 +1,7 @@
 # kbx IR Blaster
 
-[![kbxIrBlasters](images/kbxIrBlaster-top-family-thumb.jpg "kbxIrBlasters")](images/)
-[![kbxIrBlaster-v3](images/kbxIrBlaster-v3-glow-thumb.jpg "kbxIrBlaster-v3")](images/)
+[![kbxIrBlasters](images/kbxIrBlaster-top-family-thumb.jpg "kbxIrBlasters")](GALLERY.md)
+[![kbxIrBlaster-v3](images/kbxIrBlaster-v3-glow-thumb.jpg "kbxIrBlaster-v3")](GALLERY.md)
 
 ## What?
 
