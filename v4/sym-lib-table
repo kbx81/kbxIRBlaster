@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "kbxIrBlaster")(type "KiCad")(uri "${KIPRJMOD}/kbxIrBlaster.kicad_sym")(options "")(descr ""))
+)

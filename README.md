@@ -8,7 +8,10 @@
 Just another ESP32-based IR Blaster. It was designed with [ESPHome](https://esphome.io) in mind but should work fine
 with [Tasmota](https://tasmota.github.io/docs/) or any other app, really.
 
-I've created three versions:
+I've created four versions:
+- [v4](v4/)
+  - Based on ESP32-C6
+  - Nearly identical to [v3](v3/) (below) but with minor adjustments/enhancements
 - [v3](v3/)
   - Based on ESP32-C3
   - Disc (smaller)
@@ -46,6 +49,7 @@ ESP32 module instead of an ESP8266, as the ESP32 (and its variants) has dedicate
 ## How?
 
 Please see the bill of materials (BoM) for the version of interest:
+ -  v4 BoM: [Octopart](https://octopart.com/bom-tool/P6YqtNWD), [CSV](v4/kbxIrBlaster_bom.csv)
  -  v3 BoM: [Octopart](https://octopart.com/bom-tool/GUsHZQub), [CSV](v3/kbxIrBlaster_bom.csv)
  -  v2 BoM: [Octopart](https://octopart.com/bom-tool/78rYOXWE), [CSV](v2/kbxIrBlaster_bom.csv)
  -  v1 BoM: [Octopart](https://octopart.com/bom-tool/vDwq4wDr), [CSV](v1/kbxIrBlaster_bom.csv)
